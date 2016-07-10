@@ -1,0 +1,14 @@
+<c:out value="subdelivery${deliv.idDelivery}"/>
+                        <c:forEach items="${subdelivery<c:out value="${deliv.idDelivery}"/>}" var="sub">
+
+                            <tr>
+                                <td>${sub.idSubdelivery}</td>
+                                <td>${sub.subdeliveryState}</td>
+                                <td>${sub.idDVD}</td>
+
+                                <td><input type="submit" name="action" 
+                                           value="sub_ready<c:out value="${sub.idSubdelivery}"/>"></td>
+                                <td><input type="submit" name="action" 
+                                           value="sub_gone<c:out value="${sub.idSubdelivery}"/>"></td>
+                            </tr>
+                        </c:forEach>

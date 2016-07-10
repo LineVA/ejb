@@ -1,0 +1,9 @@
+DROP TABLE DVDSupplier;
+DROP TABLE Subdelivery;
+DROP TABLE Delivery;
+DROP TABLE Intervention;
+DROP TABLE Individual;
+DROP TABLE DVD;
+DROP TABLE Supplier;
+DROP TABLE Profession;
+DROP TABLE Genre;

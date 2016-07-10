@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dvdShop.jpa;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+
+/**
+ *
+ * @author doyenm
+ */
+@Entity
+@NamedQueries({
+    @NamedQuery(name = "Participation.getAll", query = "SELECT part FROM Participation part")//,
+//    @NamedQuery(name = "Intervention.getByAll",
+//            query = "SELECT interv FROM Intervention interv WHERE "
+//            + "interv.idDVD=:idDVD "
+//            + "AND interv.idIndividual=:idIndividual ")
+})
+public class Participation implements java.io.Serializable {
+ 
+//    @Id
+//    @Column(name="idIndividual")
+//    private int idIndividual;
+//    
+//    @Id
+//    @Column(name="idDVD")
+//    private int idDVD;
+//
+//    public int getIdIndividual() {
+//        return idIndividual;
+//    }
+//
+//    public void setIdIndividual(int individual) {
+//        this.idIndividual = individual;
+//    }
+//
+//    public int getIdDVD() {
+//        return idDVD;
+//    }
+//
+//    public void setIdDVD(int dvd) {
+//        this.idDVD = dvd;
+//    }
+//  
+//    
+//    public Participation(){
+//        
+//    }
+//
+//    public Participation(String title, int year, String firstName, String lastName){
+//        
+//    }
+//    
+//    public Participation(int indiv,int  dvd){
+//        this.idDVD = dvd;
+//        this.idIndividual = indiv;
+//    }
+//    
+}
